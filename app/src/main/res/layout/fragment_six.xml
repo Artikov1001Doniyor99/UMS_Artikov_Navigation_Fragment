@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="#FF1744"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+
+        <ImageView
+            android:id="@+id/back_yangiliklar"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            app:layout_constraintHorizontal_bias="0.25"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="UMS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                app:cardCornerRadius="20sp"
+                app:cardElevation="5sp"
+                app:cardMaxElevation="2dp"
+                app:cardUseCompatPadding="true">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/one_new"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="160sp"
+                        android:layout_height="100sp"
+                        android:text="«Qulay taklif V.3» aksiyasi!"
+                        android:textColor="#FF1744"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_margin="10sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintHorizontal_bias="0"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="20sp"
+                        android:text="*111*120#"
+                        android:textStyle="bold"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0.4"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="10sp"
+                        android:text="Abonent:20 000 so'm"
+                        android:textColor="@color/black"
+                        app:layout_constraintWidth_percent="0.3"
+                        app:layout_constraintHeight_percent="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"/>
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0.56"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="10sp"
+                        android:text="So'zlashuv:2 000 min"
+                        android:textColor="@color/black"
+                        app:layout_constraintWidth_percent="0.3"
+                        app:layout_constraintHeight_percent="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"/>
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0.72"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="10sp"
+                        android:text="Internet:2 000 mb"
+                        android:textColor="@color/black"
+                        app:layout_constraintWidth_percent="0.3"
+                        app:layout_constraintHeight_percent="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"/>
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0.9"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="10sp"
+                        android:text="sms:2000 ta"
+                        android:textColor="@color/black"
+                        app:layout_constraintWidth_percent="0.3"
+                        app:layout_constraintHeight_percent="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                app:cardCornerRadius="20sp"
+                app:cardElevation="5sp"
+                app:cardMaxElevation="2dp"
+                app:cardUseCompatPadding="true">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/two_new"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="160sp"
+                        android:layout_height="100sp"
+                        android:text="ASKUG tarif rejasi shartlarining o‘zgartirilishi"
+                        android:textColor="#FF1744"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_margin="10sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintHorizontal_bias="0"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="20sp"
+                        android:text="*111*120#"
+                        android:textStyle="bold"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0.4"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="10sp"
+                        android:text="Abonent:20 000 so'm"
+                        android:textColor="@color/black"
+                        app:layout_constraintWidth_percent="0.3"
+                        app:layout_constraintHeight_percent="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"/>
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0.56"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="10sp"
+                        android:text="So'zlashuv:2 000 min"
+                        android:textColor="@color/black"
+                        app:layout_constraintWidth_percent="0.3"
+                        app:layout_constraintHeight_percent="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"/>
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0.72"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="10sp"
+                        android:text="Internet:2 000 mb"
+                        android:textColor="@color/black"
+                        app:layout_constraintWidth_percent="0.3"
+                        app:layout_constraintHeight_percent="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"/>
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0.9"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="10sp"
+                        android:text="sms:2000 ta"
+                        android:textColor="@color/black"
+                        app:layout_constraintWidth_percent="0.3"
+                        app:layout_constraintHeight_percent="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                app:cardCornerRadius="20sp"
+                app:cardElevation="5sp"
+                app:cardMaxElevation="2dp"
+                app:cardUseCompatPadding="true">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/three_new"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="160sp"
+                        android:layout_height="100sp"
+                        android:text="Corporate 30, Corporate 50,Corporate 80 tarif rejalaridagi to‘plamlarning yangilanishi!"
+                        android:textColor="#FF1744"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_margin="10sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintHorizontal_bias="0"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="20sp"
+                        android:text="*111*120#"
+                        android:textStyle="bold"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0.4"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="10sp"
+                        android:text="Abonent:20 000 so'm"
+                        android:textColor="@color/black"
+                        app:layout_constraintWidth_percent="0.3"
+                        app:layout_constraintHeight_percent="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"/>
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0.56"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="10sp"
+                        android:text="So'zlashuv:2 000 min"
+                        android:textColor="@color/black"
+                        app:layout_constraintWidth_percent="0.3"
+                        app:layout_constraintHeight_percent="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"/>
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0.72"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="10sp"
+                        android:text="Internet:2 000 mb"
+                        android:textColor="@color/black"
+                        app:layout_constraintWidth_percent="0.3"
+                        app:layout_constraintHeight_percent="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"/>
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0.9"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="10sp"
+                        android:text="sms:2000 ta"
+                        android:textColor="@color/black"
+                        app:layout_constraintWidth_percent="0.3"
+                        app:layout_constraintHeight_percent="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                app:cardCornerRadius="20sp"
+                app:cardElevation="5sp"
+                app:cardMaxElevation="2dp"
+                app:cardUseCompatPadding="true">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/four_new"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="160sp"
+                        android:layout_height="100sp"
+                        android:text="«Qulay taklif V.2» aksiyasidagi o‘zgarishlar!"
+                        android:textColor="#FF1744"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_margin="10sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintHorizontal_bias="0"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="20sp"
+                        android:text="*111*120#"
+                        android:textStyle="bold"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0.4"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="10sp"
+                        android:text="Abonent:20 000 so'm"
+                        android:textColor="@color/black"
+                        app:layout_constraintWidth_percent="0.3"
+                        app:layout_constraintHeight_percent="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"/>
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0.56"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="10sp"
+                        android:text="So'zlashuv:2 000 min"
+                        android:textColor="@color/black"
+                        app:layout_constraintWidth_percent="0.3"
+                        app:layout_constraintHeight_percent="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"/>
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0.72"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="10sp"
+                        android:text="Internet:2 000 mb"
+                        android:textColor="@color/black"
+                        app:layout_constraintWidth_percent="0.3"
+                        app:layout_constraintHeight_percent="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"/>
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0.9"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="10sp"
+                        android:text="sms:2000 ta"
+                        android:textColor="@color/black"
+                        app:layout_constraintWidth_percent="0.3"
+                        app:layout_constraintHeight_percent="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                app:cardCornerRadius="20sp"
+                app:cardElevation="5sp"
+                app:cardMaxElevation="2dp"
+                app:cardUseCompatPadding="true">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/five_new"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="160sp"
+                        android:layout_height="100sp"
+                        android:text="Yangi «Inspektor Ovoz» xizmati!"
+                        android:textColor="#FF1744"
+                        android:textSize="23sp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_margin="10sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintHorizontal_bias="0"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="20sp"
+                        android:text="*111*120#"
+                        android:textStyle="bold"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0.4"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="10sp"
+                        android:text="Abonent:20 000 so'm"
+                        android:textColor="@color/black"
+                        app:layout_constraintWidth_percent="0.3"
+                        app:layout_constraintHeight_percent="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"/>
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0.56"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="10sp"
+                        android:text="So'zlashuv:2 000 min"
+                        android:textColor="@color/black"
+                        app:layout_constraintWidth_percent="0.3"
+                        app:layout_constraintHeight_percent="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"/>
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0.72"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="10sp"
+                        android:text="Internet:2 000 mb"
+                        android:textColor="@color/black"
+                        app:layout_constraintWidth_percent="0.3"
+                        app:layout_constraintHeight_percent="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"/>
+                    <TextView
+                        app:layout_constraintHorizontal_bias="0.95"
+                        app:layout_constraintVertical_bias="0.9"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="10sp"
+                        android:text="sms:2000 ta"
+                        android:textColor="@color/black"
+                        app:layout_constraintWidth_percent="0.3"
+                        app:layout_constraintHeight_percent="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
